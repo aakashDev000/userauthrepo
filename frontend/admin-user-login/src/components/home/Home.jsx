@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     setToken(authtoken);
     if (authtoken) {
-      console.log("token*******", token);
+      console.log("token***********", token);
     }
 
     if (!authtoken) {
